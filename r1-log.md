@@ -29,5 +29,9 @@ org 文件比较熟悉，现在准备改写 md 了，要学习一些新的东西
 nvchad: https://nvchad.github.io/getting-started/setup
 
 - 熟悉 lua 语法
+  https://www.bilibili.com/video/BV1QL4y147VD?p=3
+- 学习快捷键的设定
+  应该是 nvim 的第三课，nvim from scratch 系列教程。
+  keymap
 
 ### R1D2 第二天
