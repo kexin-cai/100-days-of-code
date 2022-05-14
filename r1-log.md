@@ -24,7 +24,8 @@ org 文件比较熟悉，现在准备改写 md 了，要学习一些新的东西
 
 - 结果是不太想学习 Emacs 了，准备拥抱 vim 怀抱了
 
-- 在arch系统里 安装了ssh 生成了 GitHub的密钥，发到了GitHub网站，这样这个系统就可以push了。
+- 在 arch 系统里 安装了 ssh 生成了 GitHub 的密钥，发到了 GitHub 网站，这样这个系统就可以 push 了。
+
 #### 继续学习 neovim
 
 nvchad: https://nvchad.github.io/getting-started/setup
@@ -36,8 +37,11 @@ nvchad: https://nvchad.github.io/getting-started/setup
   keymap
 
 ### R1D2 第二天
-- 在拉取的时候git给出提示需要设定拉取的默认规则，在本地仓库里给出设定为rebase=false，意思是直接合并。
-- 继续学习nvim入门教程
 
+- 在拉取的时候 git 给出提示需要设定拉取的默认规则，在本地仓库里给出设定为 rebase=false，意思是直接合并。
+- 继续学习 nvim 入门教程
 
+时间：+1h
 
+- 继续学习 nvim：第四天的课程，是讲解插件的管理，使用的是 packer。
+- 拖延症的四种表现。有一项就是准备工作。
