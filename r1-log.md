@@ -35,3 +35,6 @@ nvchad: https://nvchad.github.io/getting-started/setup
   keymap
 
 ### R1D2 第二天
+时间：+1h
+- 继续学习nvim：第四天的课程，是讲解插件的管理，使用的是 packer。
+- 拖延症的四种表现。有一项就是准备工作。
