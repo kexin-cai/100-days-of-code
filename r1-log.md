@@ -28,9 +28,7 @@ org 文件比较熟悉，现在准备改写 md 了，要学习一些新的东西
 
 #### 继续学习 neovim
 
-nvchad: https://nvchad.github.io/getting-started/setup
-
-- 熟悉 lua 语法
+nvchad: https://nvchad.github.io/getting-started/setup - 熟悉 lua 语法
   https://www.bilibili.com/video/BV1QL4y147VD?p=3
 - 学习快捷键的设定
   应该是 nvim 的第三课，nvim from scratch 系列教程。
@@ -46,7 +44,7 @@ nvchad: https://nvchad.github.io/getting-started/setup
 - 继续学习 nvim：第四天的课程，是讲解插件的管理，使用的是 packer。
 - 拖延症的四种表现。有一项就是准备工作。正如我在做的东西，也可以算作是一种拖延吧。
 
-### R1D2 第三天
+### R1D3 第三天
 
 - 继续学习配置 nvim：今天是主题颜色，视频时长 16 分钟，
 - 看了一会儿，mac M1 芯片的电脑虚拟化的教程，推荐使用 UTM 安装了软件，试了下 arch 不成功。
@@ -54,3 +52,12 @@ nvchad: https://nvchad.github.io/getting-started/setup
 - 一个网站，给初学者教授全栈的个人网站，https://thefullstackdev.net/
 - 一个个人网站，只使用 html 来写， https://bjhess.com/ 可以学一下，很简单的
 - 昨天看了一篇文章，一个大牛的写的关于 web 网页的糟点，认为应该重新考虑 web 的发展，从头来做。https://macwright.com/2020/08/22/clean-starts-for-the-web.html，这个网站， 看了作者是一个很厉害的人物。
+
+### R1D4 第四天
+
+- nvim 自动完成设置。
+- 安装 org 插件
+ 发现了问题： 无法安装orgmode.nvim 的插件。报错是没有cc clang等的编译器。
+ 开始安装gcc12.1 居然没有gcc的安装我晕了。
+ 安装了 base-devel
+ - 终于搞好了，原来是需要编译的。
