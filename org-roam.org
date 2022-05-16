@@ -12,8 +12,11 @@
 - 设置 org-roam 。
 
 * Day002
-  建立办公室工作流，设置好roam in office. 
+  建立办公室工作流，设置好 roam in office. 
   考虑下要记录什么。
   整理一下以前的笔记吧，翻译的东西，建立自己的知识体系。
-
-
+记录了 base16 的颜色内容。
+把 iterm2 的主题颜色从 zenburn 改成了 3024 主题。
+把 Emacs 的主题也是从 zenburn 改成了 doom-old-hope .
+把 nvim 的主题颜色改成了内置的 tomorrow。
+浏览了好多主题，各个软件都有自己的主题颜色，这包括 iterm2、neovim、emacs等等吧，而且各个都不一样。

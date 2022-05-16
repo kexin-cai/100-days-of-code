@@ -61,3 +61,8 @@ nvchad: https://nvchad.github.io/getting-started/setup - 熟悉 lua 语法
  开始安装gcc12.1 居然没有gcc的安装我晕了。
  安装了 base-devel
  - 终于搞好了，原来是需要编译的。
+ - 在vnim里编辑了一下日志文件，是org格式的，发现有些功能是没有的，没有Emacs完善。估计还是要留在这里Emacs了。 
+  - 发现了两个有趣的项目，记录在roam了。
+[file:~/Learn/github/my-notes/journal.org][5yue16ri]]
+
+
