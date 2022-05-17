@@ -19,4 +19,15 @@
 把 iterm2 的主题颜色从 zenburn 改成了 3024 主题。
 把 Emacs 的主题也是从 zenburn 改成了 doom-old-hope .
 把 nvim 的主题颜色改成了内置的 tomorrow。
-浏览了好多主题，各个软件都有自己的主题颜色，这包括 iterm2、neovim、emacs等等吧，而且各个都不一样。
+浏览了好多主题，各个软件都有自己的主题颜色，这包括 iterm2、neovim、emacs 等等吧，而且各个都不一样。
+
+* Day003
+记录一些什么东西呢？
+迷茫中......
+决定继续学习 roam doc ，连翻译再加学习。
+<2022-05-17 Tue 20:32>
+#+begin_src emacs-lisp
+
+(org-time-stamp) ;; SPA m d t
+
+#+end_sc
