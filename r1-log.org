@@ -100,3 +100,9 @@ pandoc r1-log.md -s -o r1-log.org
 (org-time-stamp) ;; SPA m d t
 
 #+end_src
+
+*** R1D6 第六天
+学点什么呢，v语言似乎有点不流行？
+vlang
+都差不多吧。
+要的话晚上来看看。
