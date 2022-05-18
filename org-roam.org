@@ -31,3 +31,8 @@
 (org-time-stamp) ;; SPA m d t
 
 #+end_sc
+
+* Day004
+继续学习 roam doc 看完了 buffer，我叫侧边栏。
+
+还是记录在了 roam 里了。
