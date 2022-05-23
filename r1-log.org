@@ -152,3 +152,18 @@ v run hello
 计划要学习 keynote 和 number 了。
 **** 目前的尝试是 使用苹果日历，来安排活动，增加了 学习和非学习两个日历，
 分别设置不同的颜色。
+*** R1D9 第九天
+    思考学习什么编程技术。
+    整理一下学到的东西，最近刚学习了c语言，想起了学习C项目：nvim项目。可以作为新手项目来学习一下。
+    <2022-05-23 Mon 16:18> 
+    似乎自己的水平还不够哇！！
+**** 以前学过的东西整理：
+     - C
+     - JS  HTML  CSS elm react vue svelte hugo lisp racket scheme emacs ruby rails python 
+       ios
+       swift OC java linux unix 
+       克服拖延症，时间管理，
+
+
+     发现5月21号没有学习，忘记了忘记自己为什么没有写日记了。我晕死了。
+     
