@@ -176,3 +176,31 @@ codeberg.org
 *** R1D10 第十天
 白天工作事情太多了。
 <2022-05-24 Tue 20:00>
+*** R1D11 第十一天
+<2022-05-25 Wed 21:00>
+工作比较忙，晚上在家搞。
+#+begin_src emacs-lisp
+
+                        (insert-rectangle '("first" "second" "third"))
+
+
+(apply 'max 3 7 3 4 '(4 8 5))
+;;; First version 0.1
+(defun column-of-graph (max-graph-height actual-height)
+  "Return list of strings that is one column of a graph"
+  (let ((insert-list nil)
+        (number-of-top-blanks (- max-graph-height actual-height)))
+;; Fill in *
+    (while (> actual-height 0)
+      (setq insert-list (cons "*" insert-list))
+    (setq actual-height (1- actual-height)))
+
+                        ;;; Fill in blanks
+    (while (> number-of-top-blanks 0)
+      (setq insert-list (cons " " insert-list))
+      (setq number-of-top-blanks (1- number-of-top-blanks)))
+
+    ;; return while list
+    insert-list))
+         (column-of-graph 5 3)
+#+end_src
