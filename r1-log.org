@@ -204,3 +204,15 @@ codeberg.org
     insert-list))
          (column-of-graph 5 3)
 #+end_src
+*** R1D12 第十二天
+<2022-05-26 Thu 20:00>
+
+#+begin_src emacs-lisp
+
+(defvar graph-symol "*"
+  "String used as symol in graph, usually an asterisk.")
+;; 15.1  graph-body-print  function
+
+#+end_src
+**** 继续学习 Emacs-lisp introduce
+**** 后面几章都浏览完了。
