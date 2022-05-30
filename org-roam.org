@@ -61,3 +61,13 @@ add a book : 结束拖延症。翻译了目录。
 
 * Day010
 <2022-05-25 Wed 21:00>
+
+* Day011
+<2022-05-29 Sun 9:00>
+a book: living documentation
+[[file:~/Learn/github/my-notes/roam/20220529094000-living_documentation.org][living docu]]
+
+* Day012
+<2022-05-30 Mon 20:00>
+read book : Modelling software with pictures
+---- UML diagramming for real-time embedded systems
