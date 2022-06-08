@@ -71,3 +71,8 @@ a book: living documentation
 <2022-05-30 Mon 20:00>
 read book : Modelling software with pictures
 ---- UML diagramming for real-time embedded systems
+
+* Day013
+<2022-06-07 Tue 19:20>
+开始学习 rust
+按照官网的教程，有中文翻译的版本。
