@@ -304,3 +304,24 @@ fn main () {
 **** 7.1 包和 crate
 **** 7.2 定义模块来控制作用域与私有性
 **** 7.3 路径用于引用模块树中的项目
+*** R1D19 第十九天
+继续学习 rust 模块化方法。
+#+begin_src rust
+mod front_of_house;
+pub use crate::front_of_house::hosting;
+pub fn eat_at_restaurant(){
+hosting::add_to_waitlist();
+}
+
+#+end_src
+**** 总结
+Rust 提供了将包分成多个 crate，将 crate 分成模块，以及通过指定绝对或者是相对路径从一个模块引用另一个模块中定义的项的方式。你可以通过使用 use 语句将路径引入作用域，这样在多次使用时可以使用更短的路径。模块定义的代码默认是私有的，不过可以选择增加关键字 pub 使其变为公有。
+**** ch08 常见集合
+collection
+数组和元组，集合数据存储在堆上。
+***** vector
+原来存储一系列的值
+Vec(T),只能存储相同类型的值。例如文件中的文本行，或者是购物车中商品的价格。
+
+***** string
+***** map(hash map)
