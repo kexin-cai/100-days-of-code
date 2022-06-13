@@ -350,3 +350,24 @@ fn main() {
 }
 
 #+end_src
+*** R1D21 第二十一天
+#+begin_src rust
+fn main() {
+let number_list = vec![34, 50, 25 ,100,63];
+let mut largest = number_list[0];
+for number in number_list {
+if number > largest {
+largest = number;
+}
+}
+println!("the largest number is {}", largest);
+}
+
+fn largest<T>(list: &[T] -> T) {}
+#+end_src
+<2022-06-13 Mon 15:10>
+泛型数据类型
+
+在函数定义中使用泛型
+
+trait: 定义共享行为
