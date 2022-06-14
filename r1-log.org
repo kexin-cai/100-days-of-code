@@ -379,3 +379,27 @@ trait: 定义共享行为
 生命周期，注解语法。
 生命周期注解描述了多个引用生命周期相互的关系，而不影响其生命周期。
 深入了解生命周期：生命周期语法是用于函数的多个参数与其返回值的生命周期进行关联的。
+*** R1D22 第二十二天
+#+begin_src rust
+use std::fmt::Display;
+
+fn longest_with_an_announcement<'a, T>(
+x: &'a str,
+y: &'a str,
+ann: T,
+) -> &'a str
+where T: Display,
+{
+println!("Announcement! {}", ann);
+if x.len()>y.len() {
+x
+}else{
+y
+}
+}
+
+
+#+end_src
+<2022-06-14 Tue 08:20>
+总结
+泛型类型参数、trait bounds以及泛型生命周期类型。
