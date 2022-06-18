@@ -440,3 +440,39 @@ fn main() {
 #+end_src
 **** 重构以改进模块化与错误处理
 最长的一章。
+*** R1D25 第二十五天
+<2022-06-18 Sat 10:30>
+go my minigrep project
+#+begin_src rust
+
+
+#+end_src
+**** 采用测试驱动开发完善 库 的功能
+src/lib.rs main.rs
+TDD :
+- 编写一个失败的测试，并运行它以确保它失败的原因是你所期望的。
+- 修改代码来使新的测试通过
+- 重构代码， 仍能通过测试
+- 重复
+***** 编写失败测试
+#+begin_src rust
+#[cfg(test)]
+mod tests {
+use super::*;
+
+#[test]
+fn one_result() {
+let query = "duct";
+let contents = "\
+    Rust:
+safe, fast, productive.
+Pick three,";
+    assert_eq!(vec!["safe, fast, productive."], search(query, contents));
+}
+
+}
+
+#+end_src
+*****
+*****
+ 加油，坚持 坚持✊   ！！！！！！！！坚持 ✊  ！！！！
