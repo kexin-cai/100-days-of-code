@@ -481,12 +481,90 @@ Pick three,";
 复习了 字符串切片， 生命周期， B 站有老师的视频教程，也是按照本书的章节来讲授的。
 *** R1D27 第二十七天
 <2022-06-20 Mon 09:30>
-学习rust
-***** 将代码拆分到库crate
+学习 rust
+***** 将代码拆分到库 crate
 ***** 闭包：可以捕获环境的匿名函数
 闭包---匿名函数
 闭包类型推断和注解
 *** R1D28 第二十八天
 <2022-06-21 Tue 08:50>
 拒绝紫砂，拒绝购物！！！
-继续学习rust.
+继续学习 rust.
+**** 使用迭代器处理元素序列
+迭代器（iterator）负责遍历序列中的每一项和决定序列何时结束的逻辑。惰性的。
+#+begin_src rust
+// 创建一个迭代器
+let v1 = vec![1, 2, 3];
+let v1_iter = v1.iter();
+for val in v1_iter {
+println!("got: {}", val);
+}
+#+end_src
+
+迭代器都实现了 Iterator 的 trait
+#+begin_src rust
+pub trait Iterator {
+   type Item;
+    fn next(&mut self) -> Option<Self::Item>;
+    // 省略 方法的具体时间；
+            }
+#[test]
+fn iterator_demonstration() {
+        let v1 = vec![1,2,3];
+    let mut v1_iter = v1.iter();
+    assert_eq!(v1_iter.next(), Some(&1));
+
+            }
+#+end_src
+产生其他迭代器的方法
+filter 迭代器适配器和闭包的常规用例：
+#+begin_src rust
+// src/lib.rs
+
+#[derive(PartialEq, Debug)]
+struct Shoe {
+    size: u32,
+    style: String,
+            }
+
+fn shoes_in_size(shoes: Vec<Shoe>, shoe_size: u32) -> Vec<Shoe> {
+    shoes.into_iter().filter(|s| s.size == shoe_size).collect()
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    #[test]
+    let shoes = vec![
+        Shoe {
+        size: 10,
+        style: String::from("sneaker"),
+            },
+       Shoe {
+                size: 13,
+                style: String::from("sandal"),
+            },
+            Shoe {
+                size: 10,
+                style: String::from("boot"),
+            },
+
+            ];
+
+    let in_my_size = shoes_in_size(shoes, 10);
+           assert_eq!(
+            in_my_size,
+            vec![
+                Shoe {
+                    size: 10,
+                    style: String::from("sneaker")
+                },
+                Shoe {
+                    size: 10,
+                    style: String::from("boot")
+                },
+            ]
+        );
+}
+
+#+end_src
