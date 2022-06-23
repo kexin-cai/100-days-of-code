@@ -568,3 +568,23 @@ mod tests {
 }
 
 #+end_src
+*** R1D29 第二十九天
+#+begin_src
+
+#+end_src
+<2022-06-23 Thu 20:45>
+昨天一个人在家，看抖音，看直播带货。打星际和炉石传说。
+今天继续 rust。
+跳过第 15 章智能指针，看第 16 章--无谓并发。
+concurrent programming --- 并发 不同部分互相独立
+parallel programming   --- 并行 不同部分同时执行
+fearless concurrency   可能包含了 以上两个内容
+- 如何创建线程来同时运行多段代码
+- 消息传递并发
+- 共享状态并发
+- sync 和 send
+**** 16.1 threads
+- Race conditions
+- Deadlocks
+- 不稳定的错误
+由操作系统调用 OS api 来创建线程 1:1.
