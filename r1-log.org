@@ -591,8 +591,29 @@ fearless concurrency   可能包含了 以上两个内容
 ***** KILL 有点想建一个论坛社区，分享紫砂，壶友交流
 需要找找论坛软件，买域名，服务器，备案，等等吧。而且还不一定能批准。麻烦了。
 ***** TODO 学习大蛇
-**** ch14 更多关于Cargo Crates.io
+**** ch14 更多关于 Cargo Crates.io
 ***** 14.1 采用发布配置自定义构建
-***** 14.2 将crate发布到Crates.io
+***** 14.2 将 crate 发布到 Crates.io
 ***** 14.3 Cargo 工作空间
-***** 14.4 使用Cargo install 从 Crates.io安装二进制文件
+***** 14.4 使用 Cargo install 从 Crates.io 安装二进制文件
+*** R1D30 第三十天
+<2022-06-24 Fri 20:30>
+- 消息传递并发
+#+begin_src rust
+use std::sync::mpsc;
+use std::threads;
+
+fn main() {
+    let (tx, rx) = mpsc::channel();
+
+    thread::spamn(move || {
+       let val = String::from("hi");
+        tx.send(val).unwrap();
+    });
+    let received = rx.recv().unwrap();
+    println!("Got: {}", received);
+
+}
+
+#+end_src
+- 信道和所有权转移
