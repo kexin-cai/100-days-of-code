@@ -621,3 +621,35 @@ fn main() {
 <2022-06-26 Sun 10:00>
 rust oop
 昨天一边看的。
+*** R1D32 第三十二天
+<2022-06-27 Mon 15:10>
+模式匹配：
+- if let
+  #+begin_src rust
+let favorite_color: Option<&str> = None;
+if let Some(color) = favorite_color {
+println!("Use your favorite color, {}, as the background", color);
+} else if let ... = age {  }
+else {
+
+println!("..");
+}
+
+
+}
+- while let
+
+
+  #+end_src
+
+- while let
+
+- for
+
+- let
+
+- 函数参数
+
+  可反驳的  ---   不可反驳的
+
+  所有得模式匹配 例子。
