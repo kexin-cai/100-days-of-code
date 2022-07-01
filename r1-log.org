@@ -674,3 +674,22 @@ println!("..");
 <2022-06-29 Wed 20:30>
 **** 20 最后一章 一个实际的项目例子
 今天一个不算， 玩炉石传说了！！！
+*** R1D35 第三十五天
+<2022-07-01 Fri 19:00>
+**** 学习 日程管理 agenda
+***** TODO 明天去基建处值班
+:PROPERTIES:
+:CATEGORY: 工作
+:END:
+***** TODO 学习 rust :rust:coding:
+SCHEDULED: <2022-07-12 Tue 08:12>
+:PROPERTIES:
+:CATEGORY: 学习
+:END:
+***** TODO learning code
+DEADLINE: <2022-08-01 Mon 08:00> SCHEDULED: <2022-07-01 Fri>
+:PROPERTIES:
+:CATEGORY: learn
+:END:
+- Note taken on [2022-07-01 Fri 19:27] \\
+  learning code .
