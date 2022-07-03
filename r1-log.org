@@ -5,7 +5,7 @@
 The log of my #100DaysOfCode challenge. Started on [May 13, Friday,
 2022]. 100 天编程调整记录。从 22 年五月 13 号开始。
 
-** 计划
+** KILL 计划
 :PROPERTIES:
 :CUSTOM_ID: 计划
 :END:
