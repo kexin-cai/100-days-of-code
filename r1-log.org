@@ -693,3 +693,8 @@ DEADLINE: <2022-08-01 Mon 08:00> SCHEDULED: <2022-07-01 Fri>
 :END:
 - Note taken on [2022-07-01 Fri 19:27] \\
   learning code .
+*** R1D36 第三十六天
+SCHEDULED: <2015-07-10 Fri>
+**** 读书：4000 weeks life
+笔记：现实的冷风
+So this book is an attempt to help redress the balance—to see if we can’t discover, or recover, some ways of thinking about time that do justice to our real situation: to the outrageous brevity and shimmering possibilities of our four thousand weeks 这种“实现可能在于接受而不是否认我们的时间限制”的观念，不会让古希腊和罗马的哲学家感到惊讶。他们认为无限是神的专属;人类最崇高的目标不是成为神一样的人，而是全心全意地做一个人。在任何情况下，这就是现实，它可以令人惊讶地激励去面对它。早在 20 世纪 50 年代，一位非常古怪的英国作家查尔斯·加菲尔德·洛特·杜·坎(Charles Garfield Lott Du Cann)写了一本名为《学会生活》(Teach Yourself to Live)的短篇小说，他在书中推荐了拥抱极限的生活，他对自己的建议令人沮丧的说法做出了尖刻的回应。“令人沮丧?一点也不。没有什么比洗个冷水澡更让人沮丧的了……你不再像大多数人那样，被对自己生活的错误的、误导性的幻觉所迷惑和迷惑。”这是一种优秀的精神，以面对挑战，利用好时间。我们没有人能单凭一己之力推翻一个致力于无限生产力、注意力分散和速度的社会。但就在此时此刻，你可以停止相信任何一种幻想，认为任何一种幻想都能带来满足。你可以面对现实。你可以打开淋浴，准备好喝点提神的冰水，然后走进去。.
