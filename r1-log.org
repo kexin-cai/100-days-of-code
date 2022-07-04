@@ -705,3 +705,9 @@ So this book is an attempt to help redress the balance—to see if we can’t di
 但就在此时此刻，你可以停止相信任何一种幻想，认为任何一种幻想都能带来满足。你可以面对现实。你可以打开淋浴，准备好喝点提神的冰水，然后走进去。.
 *** R1D37 day 37
 no learn rust and code.
+*** R1D38 day 38
+第二章  效率陷阱
+
+Let's begin with busyness.
+It isn't out only time problem, and it isn't everyone's problem.
+准备放在网盘里放一个org文档，单独把翻译放在里面。
