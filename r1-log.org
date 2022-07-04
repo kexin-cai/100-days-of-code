@@ -710,4 +710,5 @@ no learn rust and code.
 
 Let's begin with busyness.
 It isn't out only time problem, and it isn't everyone's problem.
-准备放在网盘里放一个org文档，单独把翻译放在里面。
+准备放在网盘里放一个 org 文档，单独把翻译放在里面。
+在笔记本里放了一个记录，roam 里面了。
