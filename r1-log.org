@@ -753,3 +753,10 @@ B 站上面的教程。https://www.bilibili.com/video/BV16x411y7d7?p=7&spm_id_fr
     lookup "one" dict
 
 #+end_src
+*** R1D43 day 43
+<2022-07-21 Thu 17:15>
+learnyouahaskell.com
+ch 4.2 guard
+ch 4.3 where
+clh 4.4 let
+第五章 递归
