@@ -760,3 +760,28 @@ ch 4.2 guard
 ch 4.3 where
 clh 4.4 let
 第五章 递归
+ch05 5.3 实现了几个常用的函数，使用递归来实现的。好哇。
+5.4 快速排序
+#+begin_src haskell
+quicksort :: (Ord a) => [a] -> [a]
+quicksort [] = []
+quicksort (x:xs) =
+  let smallerSorted = quicksort [a | a <- xs, a <= x]
+      biggerSorted = quicksort [a | a <- xs , a > x]
+  in smallerSorted ++ [x] ++ biggerSorted
+
+
+#+end_src
+第六章 高阶函数
+*** R1D44 day 44
+<2022-07-23 Sat 10:40>
+- 第八章 构造我们自己的 Types 和 Typeclass
+  ch8.5 类型别名
+#+begin_src haskell
+data Either a b = Left a | Right b deriving (Eq, Ord, Read, Show)
+
+data List a = Empty | Cons a (List a)
+
+#+end_src
+ch8.6 递归的定义数据结构
+ch8.7 Typeclasses 的第二堂课
