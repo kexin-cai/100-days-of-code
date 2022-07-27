@@ -785,3 +785,18 @@ data List a = Empty | Cons a (List a)
 #+end_src
 ch8.6 递归的定义数据结构
 ch8.7 Typeclasses 的第二堂课
+*** R1D45 day 45
+<2022-07-25 Mon 14:00>
+#haskell#
+:haskell:
+:vim:neovim:
+把 zsh启动的命令取消了，原来是 zlogin 文件。嫌弃速度太慢了。
+*** r1d45 day 46
+<2022-07-27 Wed 14:45>
+昨天 整理书房，把架子安上了。
+老Mac 继续使用 vmware 虚拟机按照arch
+haskell 完成了IO
+ch11 Functor applicative Functor and Monoids  :haskell:
+- Functor
+- Applicative functor
+- newtype
