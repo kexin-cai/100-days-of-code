@@ -790,13 +790,37 @@ ch8.7 Typeclasses 的第二堂课
 #haskell#
 :haskell:
 :vim:neovim:
-把 zsh启动的命令取消了，原来是 zlogin 文件。嫌弃速度太慢了。
-*** r1d45 day 46
+把 zsh 启动的命令取消了，原来是 zlogin 文件。嫌弃速度太慢了。
+*** r1d46 day 46
 <2022-07-27 Wed 14:45>
 昨天 整理书房，把架子安上了。
-老Mac 继续使用 vmware 虚拟机按照arch
-haskell 完成了IO
+老 Mac 继续使用 vmware 虚拟机按照 arch
+haskell 完成了 IO
 ch11 Functor applicative Functor and Monoids  :haskell:
 - Functor
 - Applicative functor
 - newtype
+*** r1d47 day 47
+
+<2022-07-28 Thu 17:30>
+ch11 . Monoids
+Lists are monoids
+Product and Sum
+Any and All
+Using monoids to fold data structures
+心得：有点看不懂，所以兴趣不大了。是不是应该做一些练习或者是项目来练习呢？
+*** r1d48 day 48
+<2022-07-29 Fri 16:15>
+开始 做练习 在 Exercism https://exercism.org/tracks/haskell/exercises/pangram/edit
+今天做了 5 个题目了。还不错，计算闰年的那个在网上找的思路和答案。
+现在 在做 panggram 就是看一个字符串里面是否包含所有的字母。一个使用递归来循环，或者是 filter。
+思考工具，如何思考，考虑问题，解决问题。
+*** r1d49 day 49
+<2022-07-30 17:00>
+arch linux install 总是报错又一个 密室不对，结果查了好多，最后是答案是一条命令 shell
+:秘诀:archlinux:
+#+begin_src shell
+# root 更新密匙 不要加u，否则会太大，无法安装，磁盘空间不够。:
+pacman -Sy archlinux-keyring
+
+#+end_src
