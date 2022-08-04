@@ -821,6 +821,10 @@ arch linux install 总是报错又一个 密室不对，结果查了好多，最
 :秘诀:archlinux:
 #+begin_src shell
 # root 更新密匙 不要加u，否则会太大，无法安装，磁盘空间不够。:
-pacman -Sy archlinux-keyring
-
 #+end_src
+haskell 练习 6 还是没有想出来。 检查一个 335
+*** r1d50 day 50
+<2022-08-04 16:00>
+:exercism:Haskell:
+上次那个问题解决了，还是找的答案。真的是精彩呀。
+all 函数， elem map low 大概的框架都是知道了，不知道怎么组合。而且没有要考虑循环的问题。思想方法都和正常的语言的不一样的。学习到了。
