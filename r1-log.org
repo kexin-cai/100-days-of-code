@@ -848,3 +848,8 @@ web3 介绍： https://hayleyiscoding.hashnode.dev/web-3-for-beginners
 继续练习 exercism 里的 Haskell 题目。
 目前的题目是 collats 序列。
 下载安装了 exercism 的命令行工具。 使用 code 打开 Haskell 项目自动升级 ghciup 真慢，大概搞了半个小时。
+*** r1d55 day 55
+<2022-08-24 Wed 17:00>
+#haskell
+继续看书 programming in haskell 完成了第五章， list comprehension
+例子是 凯撒密码的问题，字母序列窜位，来如何破译密码，采用的方法是一个英文常用字母表的使用频率又一个统计数，试验每个序列，看哪个最接近这个统计的使用频率。
